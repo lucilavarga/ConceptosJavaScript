@@ -37,7 +37,10 @@ function verificarEdad(){
         console.log("Eres mayor de edad")
     } else{
          //aca se define lo que sucede cuando la condicion
-         console.log("eres menor de edad") 
+         console.log("eres menor de edad");
+
+         mensaje.textContent="eres menor de edad";
+
     }
 
 }
